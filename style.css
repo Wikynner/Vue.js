@@ -1,4 +1,4 @@
-body {
+/* body {
 	font-family: Arial;
 	font-size:14px;
 }
@@ -31,3 +31,55 @@ body {
 	min-height:100px;
 	background-color:#EEE;
 }
+.ativo {
+	border: 2px solid #000;
+}
+.aviso {
+	 border: 2px solid #000;
+	 padding: 20px;
+	 background-color: #FF0000;
+	 color: #FFFFFF;
+} */
+
+body{
+	font-family: Arial;
+	font-size: 14px;
+	background-color: #000;
+	color: #fff;
+}
+#app {
+	max: width 1024px;
+	margin: auto;
+}
+.controle {
+	border: 2px dashed #ccc;
+	padding: 20px;
+	margin-bottom: 20px;
+}
+.sinal {
+	background-color: #333;
+	padding: 20px;
+	display: inline-block;
+	padding-bottom: 0px;
+	border-radius: 25px;
+}
+.bola {
+	width: 50px;
+	height: 50px;
+	border-radius: 25px;
+	border:1px solid #999;
+	margin-bottom: 20px;
+	background-color: #000;
+}
+
+.red {
+	background-color: red;
+}
+
+.yellow {
+	background-color: yellow;
+}
+.green {
+	background-color: green;
+}
+
